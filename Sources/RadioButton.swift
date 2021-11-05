@@ -29,7 +29,7 @@ import UIKit
         }
     }
 
-    @IBInspectable open dynamic var ringWidth: CGFloat = 2 {
+    @IBInspectable open dynamic var ringWidth: CGFloat = 1 {
         didSet {
             layer.borderWidth = ringWidth
         }
